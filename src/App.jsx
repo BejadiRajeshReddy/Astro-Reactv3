@@ -10,7 +10,6 @@ import Horoscope from "./components/Horo";
 
 function App() {
   return (
-    <>
       <div className="App">
         <Header />
         <Routes>
@@ -22,7 +21,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </>
   );
 }
 
