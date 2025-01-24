@@ -1,4 +1,5 @@
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -7,9 +8,9 @@ const Hero = () => {
         <div className="welcome-section">
           <h1>Welcome to TechSpira Astrology</h1>
           <p>Unlock the secrets of the stars and discover your destiny.</p>
-          <a href="/home" className="btn">
+          <Link to="/home" className="btn">
             Explore Your Horoscope
-          </a>
+          </Link>
         </div>
       </div>
     </div>
