@@ -17,7 +17,10 @@ header .logo {
 
 header .logo a {
   color: white;
-  text-decoration: none;
+}
+
+header .logo a:hover {
+  color: #f5a623;
 }
 
 header nav ul {
@@ -29,16 +32,16 @@ header nav ul {
 
 header nav ul li {
   margin: 0 10px;
+  list-style: none;
 }
 
 header nav ul li a {
   color: white;
-  text-decoration: none;
   font-weight: bold;
 }
 
 header nav ul li a:hover {
-  text-decoration: underline;
+  color: #f5a623;
 }
 
 .hero {
@@ -153,7 +156,7 @@ header nav ul li a:hover {
 }
 
 .card {
-  background: rgba(35, 70, 103, 0.523);
+  background: rgba(35, 70, 103, 0.923);
   padding: 1.2rem;
   border-radius: 8px;
   text-align: center;
