@@ -248,14 +248,14 @@ header nav ul li a:hover {
 
 .about-image-container {
   flex: 1;
-  min-width: 250px;
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 350px;
   margin: 0 auto;
 }
 
 .about-img {
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 8px;
   object-fit: cover;
 }
