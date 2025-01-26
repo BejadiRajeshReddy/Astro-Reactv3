@@ -1,6 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-
-
 import '../App.css';
 import about from '../assets/About.png'
 const About = () => {
