@@ -1,5 +1,3 @@
-Based on the analysis of your repository at [Astro-React](https://github.com/BejadiRajeshReddy/Astro-React), here's a tailored README file:
-
 ---
 
 # Astro-React
