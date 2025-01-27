@@ -1,4 +1,5 @@
 import "../App.css";
+import Img from "../assets/img"
 
 const Services = () => {
   return (
@@ -7,7 +8,7 @@ const Services = () => {
       <div className="service-cards">
         <div className="card">
           <img
-            src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-54702,resizemode-75,msid-109756361/news/india/hindu-marriage-not-valid-unless-performed-with-requisite-ceremonies-sc.jpg"
+            src={Img.Marriage}
             alt="Marriage"
             className="service-img"
           />
@@ -20,7 +21,7 @@ const Services = () => {
         </div>
         <div className="card">
           <img
-            src="https://varthana.com/school/wp-content/uploads/2023/05/B357.jpg"
+            src={Img.Education}
             alt="Education"
             className="service-img"
           />
@@ -32,7 +33,7 @@ const Services = () => {
         </div>
         <div className="card">
           <img
-            src="https://imageio.forbes.com/specials-images/imageserve/5fca87f3ce4ca55e8985a10a/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+            src={Img.Business}
             alt="Business"
             className="service-img"
           />
@@ -42,7 +43,7 @@ const Services = () => {
         </div>
         <div className="card">
           <img
-            src="https://www.newtraderu.com/wp-content/uploads/12-Principles-of-Building-Wealth-Eye-opening.jpg"
+            src={Img.Wealth}
             alt="Wealth"
             className="service-img"
           />
