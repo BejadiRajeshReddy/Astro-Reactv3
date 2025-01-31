@@ -11,7 +11,7 @@ Astro-React is a React-based web application that provides users with detailed h
 - **Responsive Design**: Ensures optimal viewing across various devices and screen sizes.
 - **Dynamic Content**: Displays up-to-date horoscope information for each zodiac sign.
 - **Intuitive Navigation**: Sidebar menu for easy access to different horoscope sections.
-- **User Authentication**: Signup and login functionality with localStorage integration
+- **User Authentication**: Signup and login functionality with localStorage integration.
 
 ## Getting Started
 
