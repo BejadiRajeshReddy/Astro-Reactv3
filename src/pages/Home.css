@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 5rem;
+  padding-top: 2rem;
 }
 
 .home-content {
@@ -27,6 +28,9 @@
   height: 70vh;
 }
 
+.details-card.error-active {
+  min-height: 32rem;
+}
 
 .chat-card {
   display: flex;

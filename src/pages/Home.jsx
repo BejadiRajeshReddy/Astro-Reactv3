@@ -65,7 +65,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-content">
-        <div className="details-card">
+        <div className={`details-card ${message.text && message.type === "error" ? "error-active" : ""}`}>
           <h2>Personal Details</h2>
           <div className="form-group">
             <label htmlFor="name">Name</label>

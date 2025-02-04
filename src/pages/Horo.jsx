@@ -86,38 +86,38 @@ const zodiacSigns = [
   },
 ];
 
-// const dailyHoroscopes = {
-//   Aries: "An unexpected opportunity will arise. Stay open-minded.",
-//   Taurus: "Financial stability looks promising this week.",
-//   Gemini: "Communication will be key in resolving a personal conflict.",
-//   Cancer: "Emotional insights will guide you to better relationships.",
-//   Leo: "Your creativity is at its peak. Start that project!",
-//   Virgo: "Attention to detail will lead to professional success.",
-//   Libra: "Balance and harmony are your strengths today.",
-//   Scorpio: "Trust your intuition in important decisions.",
-//   Sagittarius: "Adventure calls. Be prepared for spontaneity.",
-//   Capricorn: "Disciplined approach will yield significant results.",
-//   Aquarius: "Innovative thinking solves complex problems.",
-//   Pisces: "Emotional intelligence is your superpower today.",
-// };
-
 const dailyHoroscopes = {
-  Aries:
-    "You'll Commit Suicide in Few Minutes, If you don't you'll die by Accident",
-  Taurus:
-    "Money isn't everything… which is good because you won't have any soon.",
-  Gemini: "Your Wi-Fi will betray you during an important moment.",
-  Cancer: "Your crush will send you a message… in your dreams.",
-  Leo: "You'll try to be the center of attention, but the spotlight will break.",
-  Virgo:
-    "Perfection is overrated… which is great, because you're not even close today.",
-  Libra: "You'll finally find balance… right before you fall off a chair.",
-  Scorpio: "Your mysterious vibe will confuse everyone, including yourself.",
-  Sagittarius: "Adventure is out there! But so is bad weather. Stay home.",
-  Capricorn: "Hard work pays off… but probably not for you today.",
-  Aquarius: "You'll have a brilliant idea, but no one will listen.",
-  Pisces: "Your emotional depth will scare a cat today. Congrats!",
+  Aries: "An unexpected opportunity will arise. Stay open-minded.",
+  Taurus: "Financial stability looks promising this week.",
+  Gemini: "Communication will be key in resolving a personal conflict.",
+  Cancer: "Emotional insights will guide you to better relationships.",
+  Leo: "Your creativity is at its peak. Start that project!",
+  Virgo: "Attention to detail will lead to professional success.",
+  Libra: "Balance and harmony are your strengths today.",
+  Scorpio: "Trust your intuition in important decisions.",
+  Sagittarius: "Adventure calls. Be prepared for spontaneity.",
+  Capricorn: "Disciplined approach will yield significant results.",
+  Aquarius: "Innovative thinking solves complex problems.",
+  Pisces: "Emotional intelligence is your superpower today.",
 };
+
+// const dailyHoroscopes = {
+//   Aries:
+//     "You'll Commit Suicide in Few Minutes, If you don't you'll die by Accident",
+//   Taurus:
+//     "Money isn't everything… which is good because you won't have any soon.",
+//   Gemini: "Your Wi-Fi will betray you during an important moment.",
+//   Cancer: "Your crush will send you a message… in your dreams.",
+//   Leo: "You'll try to be the center of attention, but the spotlight will break.",
+//   Virgo:
+//     "Perfection is overrated… which is great, because you're not even close today.",
+//   Libra: "You'll finally find balance… right before you fall off a chair.",
+//   Scorpio: "Your mysterious vibe will confuse everyone, including yourself.",
+//   Sagittarius: "Adventure is out there! But so is bad weather. Stay home.",
+//   Capricorn: "Hard work pays off… but probably not for you today.",
+//   Aquarius: "You'll have a brilliant idea, but no one will listen.",
+//   Pisces: "Your emotional depth will scare a cat today. Congrats!",
+// };
 
 const Horoscope = () => {
   const [selectedSign, setSelectedSign] = useState(zodiacSigns[0]);
