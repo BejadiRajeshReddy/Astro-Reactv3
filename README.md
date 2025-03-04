@@ -66,3 +66,4 @@ Astro-React/
 - React (v18)
 - React Router (v6)
 - CSS Modules for styling
+- Tailwind CSS for Styling
